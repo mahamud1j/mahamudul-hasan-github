@@ -20,6 +20,53 @@
     background-color: #006A50;
     border-radius: 8px;
   }
+  .section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    
+  }
+  .skills-container{
+    display: flex;
+    gap: 24px;    
+   
+  }
+  .skill{
+    padding: 24px;
+    gap: 24px;
+    border-radius: 16px;
+    background-color: hsl(0, 5%, 96%);
+
+  }
+  .skill-title{
+    font-weight: 700px;
+    font-size: 20px;
+    color: #0E0E0E;
+  }
+  .skill-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    
+  }
+/* 
+  .About{ 
+    max-width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+  
+} */
+
+main{
+  max-width: 1280px;  
+  margin: auto;
+}
+
+ main section{
+  margin-top: 80px;
+  margin-bottom: 160px;
+} 
   
 
 /* Nav styles */
@@ -73,6 +120,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     border-radius: 24px;
+    padding: 15px;
 }
 
 .banner-content{
